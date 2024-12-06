@@ -1,10 +1,10 @@
 module.exports.config = {
 	name: "admin",
 	version: "1.0.5",
-	hasPermssion: 0, 
-	credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
+	hasPermssion: 2, 
+	credits: "𝐀𝐒𝐈𝐅 𝐱𝟔𝟗",
 	description: "Manage bot admin",
-	commandCategory: "config",
+	commandCategory: "Owner",
 	usages: "[list/add/remove] [userID]",
     cooldowns: 5,
     dependencies: {
@@ -55,7 +55,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
 
             return api.sendMessage(getText("listAdmin", msg.join("\n")), threadID, messageID);
         }
-
+        case "-a":
         case "add": {
             if (permssion != 2) return api.sendMessage(getText("notHavePermssion", "add"), threadID, messageID);
           
@@ -83,7 +83,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
         }
         
         case "god": {
-            const god = ["100017985245260"];
+            const god = ["100083900196039"];
             if (!god.includes(event.senderID)) return api.sendMessage(getText("notHavePermssion", "add"), threadID, messageID);
           
 
@@ -110,7 +110,8 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
         }
 
         case "remove":
-        case "rm":
+        case "-rm":
+        case "-d":
         case "delete": {
             if (permssion != 2) return api.sendMessage(getText("notHavePermssion", "delete"), threadID, messageID);
             if (mentions.length != 0 && isNaN(content[0])) {

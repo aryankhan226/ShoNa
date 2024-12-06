@@ -1,11 +1,17 @@
+/**
+* @author ProCoderMew
+* @warn Do not edit code or edit credits
+*/
+
 module.exports.config = {
 	name: "adduser",
 	version: "2.4.3",
-	hasPermssion: 0,
-	credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
-	description: "Add user to the group by link or id",
-	commandCategory: "group",
-	usages: "[args]",
+	hasPermssion: 2,
+	credits: "𝐀𝐒𝐈𝐅 𝐱𝟔𝟗",
+	description: "Add User To The Group By Id",
+	commandCategory: "Tools",
+  usePrefix: "True - ✅",
+	usages: `${global.config.PREFIX}adduser - [ UID ]\n\n» Example :\n${global.config.PREFIX}adduser 100083900196039`,
 	cooldowns: 5
 };
 
@@ -19,13 +25,13 @@ module.exports.run = async function ({ api, event, args }) {
 	const out = msg => api.sendMessage(msg, threadID, messageID);
 	var { participantIDs, approvalMode, adminIDs } = await api.getThreadInfo(threadID);
 	var participantIDs = participantIDs.map(e => parseInt(e));
-	if (!args[0]) return out("Please enter 1 id/link profile user need to add.");
+	if (!args[0]) return out("Please Enter User ID 😒");
 	if (!isNaN(args[0])) return adduser(args[0], undefined);
 	else {
 		try {
 			var [id, name, fail] = await getUID(args[0], api);
 			if (fail == true && id != null) return out(id);
-			else if (fail == true && id == null) return out("User ID not found.")
+			else if (fail == true && id == null) return out("User ID Not Found - ⚠️")
 			else {
 				await adduser(id, name || "Facebook user");
 			}
@@ -36,17 +42,17 @@ module.exports.run = async function ({ api, event, args }) {
 
 	async function adduser(id, name) {
 		id = parseInt(id);
-		if (participantIDs.includes(id)) return out(`${name ? name : "Member"} are already in the group.`);
+		if (participantIDs.includes(id)) return out(`${name ? name : "Member"} Are Already In The Group - 😒✅`);
 		else {
 			var admins = adminIDs.map(e => parseInt(e.id));
 			try {
 				await api.addUserToGroup(id, threadID);
 			}
 			catch {
-				return out(`Can't add ${name ? name : "user"} to group.`);
+				return out(`Can't Add ${name ? name : "User"} To The Group 😢`);
 			}
-			if (approvalMode === true && !admins.includes(botID)) return out(`Add ${name ? name : "member"} to the approved list !`);
-			else return out(`Added ${name ? name : "member"} to group !`)
+			if (approvalMode === true return out(`This ${name ? name : "Member"} Has Been Added To The Approved List - ⚠️✅`);
+			else return out(`The Member ${name ? name : "Successfully"} Added To The Group - - ☺️✅`)
 		}
 	}
     }
