@@ -5,8 +5,8 @@
         "domain": "facebook.com",
         "path": "/",
         "hostOnly": false,
-        "creation": "2024-12-03T18:01:37.409Z",
-        "lastAccessed": "2024-12-03T18:01:37.409Z"
+        "creation": "2024-12-06T18:32:46.107Z",
+        "lastAccessed": "2024-12-06T18:32:46.107Z"
     },
     {
         "key": "sb",
@@ -14,8 +14,8 @@
         "domain": "facebook.com",
         "path": "/",
         "hostOnly": false,
-        "creation": "2024-12-03T18:01:37.409Z",
-        "lastAccessed": "2024-12-03T18:01:37.409Z"
+        "creation": "2024-12-06T18:32:46.107Z",
+        "lastAccessed": "2024-12-06T18:32:46.107Z"
     },
     {
         "key": "ps_n",
@@ -23,8 +23,8 @@
         "domain": "facebook.com",
         "path": "/",
         "hostOnly": false,
-        "creation": "2024-12-03T18:01:37.409Z",
-        "lastAccessed": "2024-12-03T18:01:37.409Z"
+        "creation": "2024-12-06T18:32:46.107Z",
+        "lastAccessed": "2024-12-06T18:32:46.107Z"
     },
     {
         "key": "ps_l",
@@ -32,8 +32,8 @@
         "domain": "facebook.com",
         "path": "/",
         "hostOnly": false,
-        "creation": "2024-12-03T18:01:37.409Z",
-        "lastAccessed": "2024-12-03T18:01:37.409Z"
+        "creation": "2024-12-06T18:32:46.107Z",
+        "lastAccessed": "2024-12-06T18:32:46.107Z"
     },
     {
         "key": "dpr",
@@ -41,8 +41,17 @@
         "domain": "facebook.com",
         "path": "/",
         "hostOnly": false,
-        "creation": "2024-12-03T18:01:37.409Z",
-        "lastAccessed": "2024-12-03T18:01:37.409Z"
+        "creation": "2024-12-06T18:32:46.108Z",
+        "lastAccessed": "2024-12-06T18:32:46.108Z"
+    },
+    {
+        "key": "locale",
+        "value": "en_US",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-12-06T18:32:46.108Z",
+        "lastAccessed": "2024-12-06T18:32:46.108Z"
     },
     {
         "key": "wd",
@@ -50,8 +59,8 @@
         "domain": "facebook.com",
         "path": "/",
         "hostOnly": false,
-        "creation": "2024-12-03T18:01:37.409Z",
-        "lastAccessed": "2024-12-03T18:01:37.409Z"
+        "creation": "2024-12-06T18:32:46.108Z",
+        "lastAccessed": "2024-12-06T18:32:46.108Z"
     },
     {
         "key": "c_user",
@@ -59,34 +68,25 @@
         "domain": "facebook.com",
         "path": "/",
         "hostOnly": false,
-        "creation": "2024-12-03T18:01:37.409Z",
-        "lastAccessed": "2024-12-03T18:01:37.409Z"
-    },
-    {
-        "key": "xs",
-        "value": "27%3AtB2eLdyAVcC4qw%3A2%3A1733248864%3A-1%3A5903",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2024-12-03T18:01:37.409Z",
-        "lastAccessed": "2024-12-03T18:01:37.409Z"
-    },
-    {
-        "key": "presence",
-        "value": "C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1733248878058%2C%22v%22%3A1%7D",
-        "domain": "facebook.com",
-        "path": "/",
-        "hostOnly": false,
-        "creation": "2024-12-03T18:01:37.409Z",
-        "lastAccessed": "2024-12-03T18:01:37.409Z"
+        "creation": "2024-12-06T18:32:46.108Z",
+        "lastAccessed": "2024-12-06T18:32:46.108Z"
     },
     {
         "key": "fr",
-        "value": "10rRoQBvCYjtzQy1X.AWV0lPHAtp1FsP6FoeJSfdZ_BPc.BnT0XG..AAA.0.0.BnT0d4.AWVR_hN5Xfs",
+        "value": "1pC3aOCdy456WUI6g.AWXwlMjggUBR32TTupVgOjxz9uo.BnU0NN..AAA.0.0.BnU0NN.AWW8ht7RcKs",
         "domain": "facebook.com",
         "path": "/",
         "hostOnly": false,
-        "creation": "2024-12-03T18:01:37.409Z",
-        "lastAccessed": "2024-12-03T18:01:37.409Z"
+        "creation": "2024-12-06T18:32:46.108Z",
+        "lastAccessed": "2024-12-06T18:32:46.108Z"
+    },
+    {
+        "key": "xs",
+        "value": "23%3AY8hK2R8Ams5lIg%3A2%3A1733316305%3A-1%3A5903%3A%3AAcVea6gclu0SmSWPMbT9u3dg8NwGt--sfTDQfbPbVQ",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2024-12-06T18:32:46.108Z",
+        "lastAccessed": "2024-12-06T18:32:46.108Z"
     }
 ]
