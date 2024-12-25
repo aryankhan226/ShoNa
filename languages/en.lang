@@ -59,14 +59,14 @@ users.needObject=Have to be an Object
 
 # includes/handle/handleCommand.js
 
-handleCommand.userBanned=⛔️~Tu Banned Hai Re 🤭!~🚫\n%1\n%2\nContact B0T Owner Priyansh  🖤 For Unban ⚠️
-handleCommand.threadBanned=⛔️Your Thread/Box/Group Has Been Banned!⛔️\n%1\n%2 Please Contact Owner Priyansh For Unban ⚠️
-handleCommand.commandNotExist=Abe Yaar Pura Command To Likh Le 😹 %1 Yes Or Not ? 🙄
+handleCommand.userBanned=~Tu Banned Hai Baby 🐥!~🚫\n%1\n%2\nContact B0T OwNer Aryan 🖤 For Unban ⚠️
+handleCommand.threadBanned=⛔️Your Thread/Box/Group Has Been Banned!⛔️\n%1\n%2 Please Contact Owner Frebi Aryan For Unban ⚠️
+handleCommand.commandNotExist= ༺ پہلے منہ دھو کے آؤ پھر یہ Command   استعمال کرنا 🙂💔༻
 handleCommand.commandThreadBanned=Your thread is unable to use command "%1"
 handleCommand.commandUserBanned=You are unable to use command "%1"
 handleCommand.threadNotAllowNSFW=Your thread is not allowed to use NSFW commands
 handleCommand.cantGetInfoThread=Can't get your thread's info, error: %1
-handleCommand.permssionNotEnough=📑Ye command 📝Sirf Mere Øwner Prîyansh Ko Hi Allow Hai ✋❌ "%1"
+handleCommand.permssionNotEnough= BosS App Ye Command Use nhi krSkte Ye Sirf MeRe BosS Aryan use krskte 💛✅"%1"
 handleCommand.cantSetMessageReaction=Having some unexpected error at setMessageReaction, error: %1
 handleCommand.executeCommand=[ %1 ] Command used: %2 by user: %3 at thread: %4 | Args included: %5 | Processing time: %6ms
 handleCommand.commandError=Having some unexpected error when using command %1, error: %2
@@ -101,7 +101,7 @@ handleSchedule.exectuteError=Having some error when schedule at module %1, error
 
 # utils/index.js
 
-utils.throwError=ℹ️ [!] Ye Command Kaam Nahi Kar Raha Koi Dosra Try Karo, %1help %2 Use For More usage 😉 ℹ️
+utils.throwError= Ye Command work Nahi Kar Raha Koi Dosra Try Karo, %1help %2 Use For More usage 😉❤️
 
 # updater.js
 
